@@ -37,4 +37,4 @@ For deduplication to take place you should not Hide decimals (Settings/Formattin
 - [ ] docs
 - [ ] helm/k8s
 - [ ] publish on npm
-- [ ] use github docker registry
+- [x] use github docker registry
