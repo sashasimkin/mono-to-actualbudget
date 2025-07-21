@@ -10,7 +10,7 @@ const MONO_TOKEN = process.env.MONO_TOKEN;
 const ACTUAL_URL = process.env.ACTUAL_URL;
 const ACTUAL_PASSWORD = process.env.ACTUAL_PASSWORD;
 const ACTUAL_SYNC_ID = process.env.ACTUAL_SYNC_ID;
-const USE_NODE_CRON = process.env.USE_NODE_CRON;
+const USE_NODE_CRON = process.env.USE_NODE_CRON === 'true' || process.env.USE_NODE_CRON === '1';
 let ACTUAL_ACCOUNTS = []
 
 function create_cache_dir() {
