@@ -56,7 +56,7 @@ async function fetch_data() {
       console.log("Parsing card number " + card_index);
       const cards_data = process.env["MONO_CARD_" + card_index];
       if (!cards_data) {
-        console.log("Card number " + card_index + " is absent");
+        console.log("Card number " + card_index + " is absent. Stopping here.");
         break;
       }
       card_index++;
